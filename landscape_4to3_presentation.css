@@ -48,8 +48,8 @@ section h3
 
   font-size: 32px ;
   /* margin: 25px 25px 25px 25px; */
-  margin: 0px -25px 0px -25px;
-  padding: 5px 15px 5px 15px;
+  margin: -50px -25px 0px -25px;
+  padding: 15px 15px 15px 15px;
   color: #ffffff;
   background-color: #120b6b;
   line-height: none;
@@ -63,7 +63,7 @@ section h4
 
   font-size: 32px;
   margin: 0px -25px 0px -25px;
-  padding: 5px 15px 5px 15px;
+  padding: 15px 15px 15px 15px;
   color: #ffffff;
   background-color: #120b6b;
   line-height: none;
