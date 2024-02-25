@@ -28,7 +28,6 @@ section h3 {
   top:0px;
   left: 0px;
   width: 100%;
-  padding: 15px 15px 15px 15px;
   color: #ffffff;
   background-color: #120b6b;
 }
@@ -40,11 +39,8 @@ section h1,h2 {
   transform: translateY(-50%); /* Y軸に沿って-50%移動して中央に配置 */
   width: 100%;
   height: 160px; /* 具体的な高さを指定 */
-  font-size: 60px;
-  padding: 0px 50px;
   color: #ffffff;
   background-color: #120b6b;
-  line-height: 160px; /* 高さと同じ値に設定して中央揃え */
 }
 
 
@@ -59,11 +55,11 @@ section.title {background-color: #120b6b;color: #333;}
 section.title h1{background-color: #f0f0f0; color: #120b6b;}
 section.title footer{display: none;}
 
-h1 {font-size: 60px;}
-h2 {font-size: 60px;}
-h3 {font-size: 32px; line-height: none; padding: 8px 0px;}
-h4 {font-size: 32px; line-height: none; padding: 8px 0px;}
-h5 {font-size: 28px; line-height: none; padding: 7px 28px;}
-h6 {font-size: 24px; line-height: none; padding: 6px 52px;}
-p  {font-size: 24px; line-height: none; padding: 6px 76px;}
+h1 {font-size: 60px; line-height: 160px; padding: 0px 50px;}
+h2 {font-size: 60px; line-height: 160px; padding: 0px 50px;}
+h3 {font-size: 32px; line-height: none; margin: 0px 0px; padding: 15px 15px 15px 15px}
+h4 {font-size: 32px; line-height: none; margin: 0px 0px; padding: 8px 0px;}
+h5 {font-size: 28px; line-height: none; margin: 0px 0px; padding: 7px 28px;}
+h6 {font-size: 24px; line-height: none; margin: 0px 0px; padding: 6px 52px;}
+p  {font-size: 24px; line-height: none; margin: 0px 0px; padding: 6px 76px;}
 ul {font-size: 24px; line-height: none;}
