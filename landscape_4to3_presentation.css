@@ -22,51 +22,17 @@ section pre {
   color: #e3e3e3;
 }
 
-section p
-{
-  font-size: 20px ;
-  line-height: none;
-}
-section ul
-{
-  font-size: 18px ;
-  line-height: none;
-}
-section h6
-{
-  font-size: 20px ;
-  line-height: none;
-}
 
-section h3
-{
-  position: relative;
-  /* width: 100%; */
-  /* height: 160px;  具体的な高さを指定 */
-
-  font-size: 32px ;
-  /* margin: 25px 25px 25px 25px; */
-  margin: -50px -25px 0px -25px;
+section h3 {
+  position: absolute;
+  top:0px;
+  left: 0px;
+  width: 100%;
   padding: 15px 15px 15px 15px;
   color: #ffffff;
   background-color: #120b6b;
   line-height: none;
 }
-
-section h4
-{
-  position: relative;
-  /* left: -25px; */
-  /* width: 100%; */
-
-  font-size: 32px;
-  margin: 0px -25px 0px -25px;
-  padding: 15px 15px 15px 15px;
-  color: #ffffff;
-  background-color: #120b6b;
-  line-height: none;
-}
-
 
 section h1,h2 {
   position: absolute; /* 絶対位置を指定 */
@@ -109,3 +75,14 @@ section.title h1{
 section.title footer{
   display: none;
 }
+
+
+
+h1 {font-size: 60px;}
+h2 {font-size: 60px;}
+h3 {font-size: 32px;}
+h4 {font-size: 32px;}
+h5 {font-size: 24px; padding-left: 24px;line-height: none;}
+h6 {font-size: 20px; padding-left: 44px;line-height: none;}
+p  {font-size: 16px; padding-left: 60px;line-height: none;}
+ul {font-size: 16px; line-height: none;}
