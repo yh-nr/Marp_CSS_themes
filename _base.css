@@ -1,6 +1,7 @@
-/* @theme base */
+/* @theme _base */
+
 @import "default";
-@import "PSN_IMAGE";
+@import "_PSN_IMAGE";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 section.lead h1 {
