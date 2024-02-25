@@ -23,7 +23,7 @@ section pre {
 }
 
 
-section h3 {
+section h2 {
   position: absolute;
   top:0px;
   left: 0px;
@@ -32,7 +32,7 @@ section h3 {
   background-color: #120b6b;
 }
 
-section h1,h2 {
+section h1 {
   position: absolute; /* 絶対位置を指定 */
   left: 0px; /* 親要素（section）の左端からの位置 */
   top: 50%; /* 親要素の上端から50%の位置 */
