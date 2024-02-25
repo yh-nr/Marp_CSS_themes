@@ -60,7 +60,7 @@ section h3
   position: absolute;  /* 絶対位置を指定 */
   left: 0px;  /* 親要素（section）の左端からの位置 */
   top: 0px;  /* 親要素の上端から50%の位置 */
-  width: 100%;
+  width: 105%;
   /* height: 160px;  具体的な高さを指定 */
 
   font-size: 32px ;
