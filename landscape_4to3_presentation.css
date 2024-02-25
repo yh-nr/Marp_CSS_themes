@@ -31,7 +31,6 @@ section h3 {
   padding: 15px 15px 15px 15px;
   color: #ffffff;
   background-color: #120b6b;
-  line-height: none;
 }
 
 section h1,h2 {
@@ -80,8 +79,8 @@ section.title footer{
 
 h1 {font-size: 60px;}
 h2 {font-size: 60px;}
-h3 {font-size: 32px;}
-h4 {font-size: 32px;}
+h3 {font-size: 32px; line-height: none;}
+h4 {font-size: 32px; line-height: none;}
 h5 {font-size: 28px; padding-left: 28px;line-height: none;}
 h6 {font-size: 24px; padding-left: 52px;line-height: none;}
 p  {font-size: 24px; padding-left: 76px;line-height: none;}
