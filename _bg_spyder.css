@@ -5,6 +5,12 @@
 }
 
 section {
+  position: relative; /* 疑似要素の基準点として機能させる */
+  overflow: hidden; /* 疑似要素がコンテナ外にはみ出ないようにする */
+}
+
+
+section::before {
     background-image: var(--background-image);
     background-repeat: no-repeat;
     background-position: left bottom;
