@@ -8,4 +8,8 @@ section {
     background-image: var(--background-image);
     background-repeat: no-repeat;
     background-position: left bottom;
+    background-size: 50%; /* 画像のサイズを原寸の50%に指定 */
+    opacity: 0.5; /* 透明度を設定（1が完全に不透明、0が完全に透明） */
+    filter: blur(5px); /* ぼかし効果を適用（5ピクセルのぼかし） */
+    z-index: -1; /* 要素の背景に配置 */
 }
