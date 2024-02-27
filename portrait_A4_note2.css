@@ -1,0 +1,86 @@
+/* @theme portrait_A4_note */
+
+@import 'default';
+
+
+/* ページサイズについて
+A4の短辺(210mm)は96dpiで794px
+短辺を794pxに固定して他のページサイズを設定 */
+/* A4 portrait */
+section{width: 794px;  height: 1123px;}
+/* 16:9 portrait */
+/* section{width: 794px;  height: 1412px;} */
+/* 4:3 portrait */
+/* section{width: 794px;  height: 1059px;} */
+/* A4 landscape */
+/* section{width: 1123px;  height: 794px;} */
+/* 9:16 landscape */
+/* section{width: 1412px;  height: 794px;} */
+/* 3:4 landscape */
+/* section{width: 1059px;  height: 794px;} */
+
+
+/* フォントについて */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+section, header, footer {font-family: 'Noto Sans JP', sans-serif;}
+
+
+/* スライドの背景について */
+/* @import '_bg_naruseyohei'; */
+@import '_bg_spyder';
+section {
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-position: 4% 96%;
+  background-size: 15%; /* 画像のサイズを原寸の50%に指定 */
+  background-color: #dee4ee;
+}
+
+
+
+
+
+section {
+  justify-content: start;
+  margin: 1px;
+  padding: 50px 25px 50px 25px;
+  border: 0px;
+  border-color: red;
+  line-height: 105%;
+}
+
+
+
+
+strong{color: rgb(255, 0, 0) ;}
+
+
+section.title {background-image: initial; background-color: #120b6b;color: #333;}
+section.title h1{background-color: #f0f0f0; color: #120b6b;}
+section.title footer{display: none;}
+
+
+/* H1見出しは１ページ使って表示する */
+h1 {position: absolute; left: 0px; top: 50%; transform: translateY(-50%); width: 100%; height: 160px;}
+
+
+h1, h2, h3 {color: #ffffff; background-color: #120b6b;}
+h1 {font-size: 60px; line-height: 160px; padding: 0px 50px;}
+h2 {font-size: 32px; line-height: none; margin: 0px 0px 12px 0px; padding: 8px 12px}
+h3 {font-size: 32px; line-height: none; margin: 12px 0px 12px 0px; padding: 8px 12px}
+
+
+h4, h5, h6 {color: #120b6b}
+/* h3 {font-size: 36px; line-height: none; margin: 0px 0px; padding: 0px 0px;} */
+h4 {font-size: 28px; line-height: none; margin: 0px 0px; padding: 8px 25px 8px 15px;}
+h5 {font-size: 24px; line-height: none; margin: 0px 0px; padding: 7px 25px 7px 44px;}
+h6 {font-size: 20px; line-height: none; margin: 0px 0px; padding: 6px 25px 6px 69px;}
+
+
+p  {font-size: 20px; line-height: none; margin: 0px 0px; padding: 6px 25px 6px 69px;}
+ul, ol {font-size: 20px; line-height: none; margin: 0px 0px; padding: 6px 25px 6px 93px;}
+ul ul,ol ol {font-size: 20px; line-height: none; margin: 0px 0px; padding: 6px 25px 6px 24px;}
+
+
+pre {font-size: 20px; line-height: none; margin: 18px 18px; padding: 18px 18px;}
+pre {background-color: #000d11; color: #e3e3e3;}
