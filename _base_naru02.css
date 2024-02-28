@@ -5,9 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 section, header, footer {font-family: 'Noto Sans JP', sans-serif;}
 
+
 /* ベースフォントサイズを指定 */
 :root {
-    --base-font-size: 20px;
+    --base-font-size: 16px;
+    --indent-coef: 0.5;
 }
 
 
@@ -36,21 +38,22 @@ h1 {position: absolute; left: 0px; top: 50%; transform: translateY(-50%); width:
 
 h1, h2, h3 {color: #ffffff; background-color: #120b6b;}
 h1 {font-size: 60px; line-height: 160px; padding: 0px 50px;}
-h2 {font-size: calc(var(--base-font-size) + 12px); border-radius: 7.5px; line-height: none; margin: 0px 0px 12px 0px; padding: 8px 12px}
-h3 {font-size: calc(var(--base-font-size) + 12px); border-radius: 7.5px; line-height: none; margin: 12px 0px 12px 0px; padding: 8px 12px}
+h2 {font-size: calc(var(--base-font-size) * 1.6); border-radius: 7.5px; line-height: none; margin: 0px 0px 12px 0px; padding: 8px calc(var(--base-font-size) * var(--indent-coef) * 2)}
+h3 {font-size: calc(var(--base-font-size) * 1.6); border-radius: 7.5px; line-height: none; margin: 12px 0px 12px 0px; padding: 8px calc(var(--base-font-size) * var(--indent-coef) * 2)}
 
 
 h4, h5, h6 {color: #120b6b}
 /* h3 {font-size: calc(var(--base-font-size) + 16px); line-height: none; margin: 0px 0px; padding: 0px 0px;} */
-h4 {font-size: calc(var(--base-font-size) + 8px); line-height: none; margin: 0px 0px; padding: 8px 25px 8px 15px;}
-h5 {font-size: calc(var(--base-font-size) + 4px); line-height: none; margin: 0px 0px; padding: 7px 25px 7px 44px;}
-h6 {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 25px 6px 69px;}
+h4 {font-size: calc(var(--base-font-size) * 1.4); line-height: none; margin: 0px 0px; padding: 6px 6px 6px calc(var(--base-font-size) * var(--indent-coef) * 2);}
+h5 {font-size: calc(var(--base-font-size) * 1.2); line-height: none; margin: 0px 0px; padding: 6px 6px 6px calc(var(--base-font-size) * var(--indent-coef) * 4);}
+h6 {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 6px 6px calc(var(--base-font-size) * var(--indent-coef) * 6);}
 
 
-p  {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 25px 6px 69px;}
-ul, ol {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 25px 6px 93px;}
-ul ul,ol ol {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 25px 6px 24px;}
-
+p  {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 6px 6px calc(var(--base-font-size) * var(--indent-coef) * 6);}
+ul, ol {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 6px 6px calc(var(--base-font-size) * var(--indent-coef) * 8);}
+ul ul,ol ol {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 6px 6px calc(var(--base-font-size) * var(--indent-coef) * 2);}
 
 pre {font-size: var(--base-font-size); line-height: none; margin: 18px 18px; padding: 18px 18px;}
 pre {background-color: #000d11; color: #e3e3e3;}
+
+table {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 6px 6px calc(var(--base-font-size) * var(--indent-coef) * 6);}
