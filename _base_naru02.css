@@ -34,8 +34,8 @@ h1 {position: absolute; left: 0px; top: 50%; transform: translateY(-50%); width:
 
 h1, h2, h3 {color: #ffffff; background-color: #120b6b;}
 h1 {font-size: 60px; line-height: 160px; padding: 0px 50px;}
-h2 {font-size: var(--base-font-size + 12)px; border-radius: 7.5px; line-height: none; margin: 0px 0px 12px 0px; padding: 8px 12px}
-h3 {font-size: var(--base-font-size + 12)px; border-radius: 7.5px; line-height: none; margin: 12px 0px 12px 0px; padding: 8px 12px}
+h2 {font-size: var(--base-font-size + 12px); border-radius: 7.5px; line-height: none; margin: 0px 0px 12px 0px; padding: 8px 12px}
+h3 {font-size: var(--base-font-size + 12px); border-radius: 7.5px; line-height: none; margin: 12px 0px 12px 0px; padding: 8px 12px}
 
 
 h4, h5, h6 {color: #120b6b}
