@@ -40,15 +40,15 @@ h3 {font-size: var(--base-font-size + 12)px; border-radius: 7.5px; line-height: 
 
 h4, h5, h6 {color: #120b6b}
 /* h3 {font-size: var(--base-font-size + 16)px; line-height: none; margin: 0px 0px; padding: 0px 0px;} */
-h4 {font-size: var(--base-font-size + 18)px; line-height: none; margin: 0px 0px; padding: 8px 25px 8px 15px;}
-h5 {font-size: var(--base-font-size + 14)px; line-height: none; margin: 0px 0px; padding: 7px 25px 7px 44px;}
-h6 {font-size: var(--base-font-size)px; line-height: none; margin: 0px 0px; padding: 6px 25px 6px 69px;}
+h4 {font-size: var(--base-font-size + 18px); line-height: none; margin: 0px 0px; padding: 8px 25px 8px 15px;}
+h5 {font-size: var(--base-font-size + 14px); line-height: none; margin: 0px 0px; padding: 7px 25px 7px 44px;}
+h6 {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 25px 6px 69px;}
 
 
-p  {font-size: var(--base-font-size)px; line-height: none; margin: 0px 0px; padding: 6px 25px 6px 69px;}
-ul, ol {font-size: var(--base-font-size)px; line-height: none; margin: 0px 0px; padding: 6px 25px 6px 93px;}
-ul ul,ol ol {font-size: var(--base-font-size)px; line-height: none; margin: 0px 0px; padding: 6px 25px 6px 24px;}
+p  {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 25px 6px 69px;}
+ul, ol {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 25px 6px 93px;}
+ul ul,ol ol {font-size: var(--base-font-size); line-height: none; margin: 0px 0px; padding: 6px 25px 6px 24px;}
 
 
-pre {font-size: var(--base-font-size)px; line-height: none; margin: 18px 18px; padding: 18px 18px;}
+pre {font-size: var(--base-font-size); line-height: none; margin: 18px 18px; padding: 18px 18px;}
 pre {background-color: #000d11; color: #e3e3e3;}
