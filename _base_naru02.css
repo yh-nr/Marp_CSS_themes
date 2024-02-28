@@ -6,7 +6,7 @@
 section, header, footer {font-family: 'Noto Sans JP', sans-serif;}
 
 /* ベースフォントサイズを指定 */
-:root {--base-font-size:20px;}
+:root {--base-font-size: 20px;}
 
 
 /* スライドの配置とパディング */
