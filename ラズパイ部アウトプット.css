@@ -23,8 +23,8 @@ section{width: 1412px;  height: 794px;}
 
 /* ベースフォントサイズを指定 */
 :root {
-    --base-font-size: 24px;
-    --indent-coef: 0.6;
+    --base-font-size: 28px;
+    --indent-coef: 0.4;
     --fontsize-coef: 0.2;
 }
 
