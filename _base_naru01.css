@@ -7,7 +7,7 @@ section, header, footer {font-family: 'Noto Sans JP', sans-serif;}
 
 
 /* スライドの配置とパディング */
-section {justify-content: start; padding: calc(2.5% + 24px) 2.5%;}
+section {justify-content: start; padding: 3% 2.5%;}
 
 
 /* 強調表示のフォントカラー */
